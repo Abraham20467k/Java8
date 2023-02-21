@@ -29,6 +29,7 @@ public class OptionalPrueba {
 		String nombreofNullabe = optional.orElse("Vacio");
 		//String nombreOf = optional1.orElse("Vacio");
 		System.out.println(nombreofNullabe);
+		System.out.println("valor de isEmpty con nulo:"+ optional.isPresent());
 	//	System.out.println(nombreOf);
 		
 		
